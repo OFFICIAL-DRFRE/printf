@@ -17,7 +17,7 @@ Project to be done in teams of 2 people (your team: Cristhiam Camilo Baquero Gom
 * You are not allowed to use global variables.
 * No more than 5 functions per file.
 * In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples.
-* The prototypes of all your functions should be included in your header file called holberton.h
+* The prototypes of all your functions should be included in your header file called main.h
 * Don’t forget to push your header file.
 * All your header files should be include guarded.
 * Note that we will not provide the\_putchar function for this project
@@ -38,13 +38,13 @@ Project to be done in teams of 2 people (your team: Cristhiam Camilo Baquero Gom
 $ gcc -Wall -Werror -Wextra -pedantic *.c
 ```
 * As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
-Our main files will include your main header file (holberton.h): #include holberton.h
+Our main files will include your main header file (main.h): #include holberton.h
 You might want to look at the gcc flag -Wno-format when testing with your /_printf and the standard printf. Example of test file that you could use:
 ```
 alex@ubuntu:~/c/printf$ cat main.c 
 #include <limits.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Entry point
