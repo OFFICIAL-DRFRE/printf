@@ -53,7 +53,7 @@ The code must be compiled this way:
 
 As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
 
-The main files will include your main header file (holberton.h): **#include holberton.h**
+The main files will include your main header file (main.h): **#include main.h**
 
 ------------
 
@@ -66,8 +66,8 @@ The main files will include your main header file (holberton.h): **#include holb
 **Use - General:** _printf("format string", var1, var2, ...);
 
 **Examples:**
- - Basic String: _printf("%s Holberton", "Hello");`
-	 - Output: Hello Holberton
+ - Basic String: _printf("%s Alx", "Hello");`
+	 - Output: Hello Alx
 
 - Print integers: _printf("This is an array element: arr[%d]:%c", 32, arr[32]);`
 	- Output: This is an array element arr[32]:A
@@ -87,7 +87,7 @@ Specifier                |Output                        |Examples |
 |----------------|-------------------------------|-----------------------------|
 | `c` | Character | y |
 | `d` or `i` | Signed integer | 1024, -1024 |
-| `s` | String of characters | Hello Holberton |
+| `s` | String of characters | Hello Alx |
 | `b` | Binary Representation of unsigned integer | 01010110 |
 | `u` | Unsigned integer | 1024 |
 | `o` | Unsigned octal | 432 |
@@ -139,7 +139,7 @@ Specifier                |Output                        |Examples |
 |Name                |Information                        |Relevant Files                         |
 |----------------|-------------------------------|-----------------------------|
 |`man_3_printf`|Man page of the _printf() function.| `None` |
-|`holberton.h`	| Header file with the data type struct, standard libraries and custom prototypes.| `*.c compilation` |
+|`main.h`	| Header file with the data type struct, standard libraries and custom prototypes.| `*.c compilation` |
 |`_printf.c`|Main printf function file. Calls other functions.|`printf_(name of var).c file` |
 |`print_numbers.c` | Contains decimal and integer functions. | `None` | 
 `print_chars.c` | Custom function for char data type. | `None`
@@ -236,5 +236,5 @@ All the above options work well together.
 
 ### Authors &copy;
 
-- Tinsaye Simeneh,
--  David Musau
+- Bereketab Bogale,
+-  Frehiwot Hagos
